@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Projects | Elevate Education Network</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                "surface-bright": "#fcfdfe",
+                "on-secondary-fixed-variant": "#002116",
+                "surface-container-lowest": "#ffffff",
+                "outline-variant": "#c4c6d0",
+                "on-secondary": "#ffffff",
+                "on-primary-fixed-variant": "#001a43",
+                "on-error": "#ffffff",
+                "error-container": "#ffdad6",
+                "surface": "#fcfdfe",
+                "primary-container": "#dbe1ff",
+                "on-secondary-container": "#002116",
+                "outline": "#74777f",
+                "on-surface-variant": "#44474e",
+                "tertiary-fixed-dim": "#efb8c8",
+                "primary": "#0052FF",
+                "surface-tint": "#0052FF",
+                "inverse-primary": "#b4c5ff",
+                "primary-fixed": "#dbe1ff",
+                "secondary-fixed": "#9cf6cb",
+                "primary-fixed-dim": "#b4c5ff",
+                "error": "#ba1a1a",
+                "background": "#fcfdfe",
+                "inverse-on-surface": "#f1f0f4",
+                "on-tertiary": "#ffffff",
+                "inverse-surface": "#2f3033",
+                "on-primary-container": "#00174b",
+                "on-surface": "#1a1c1e",
+                "on-primary-fixed": "#00174b",
+                "on-tertiary-fixed-variant": "#5d3f4b",
+                "on-background": "#1a1c1e",
+                "secondary": "#006d4e",
+                "on-secondary-fixed": "#002116",
+                "tertiary-fixed": "#ffd9e2",
+                "on-tertiary-container": "#31101d",
+                "surface-container-high": "#e2e2e6",
+                "on-error-container": "#410002",
+                "secondary-fixed-dim": "#81d9b0",
+                "surface-dim": "#d9dadd",
+                "surface-container": "#edeff2",
+                "surface-container-low": "#f3f3f7",
+                "on-tertiary-fixed": "#31101d",
+                "tertiary": "#7b5263",
+                "secondary-container": "#9cf6cb",
+                "surface-container-highest": "#e2e2e6",
+                "on-primary": "#ffffff",
+                "tertiary-container": "#ffd9e2",
+                "surface-variant": "#e1e2ec"
+            },
+            "borderRadius": {
+                "DEFAULT": "0.5rem",
+                "lg": "0.75rem",
+                "xl": "1rem",
+                "full": "9999px"
+            },
+            "fontFamily": {
+                "headline": ["Manrope", "sans-serif"],
+                "body": ["Manrope", "sans-serif"],
+                "label": ["Manrope", "sans-serif"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .text-editorial-gradient {
+            background: linear-gradient(135deg, #0052FF 0%, #00C2FF 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .glow-hover:hover {
+            box-shadow: 0 0 30px rgba(0, 82, 255, 0.2);
+        }
+    </style>
+</head>
+<body class="bg-surface font-body text-on-surface antialiased">
+<!-- Top Navigation Bar -->
+<nav class="fixed top-0 w-full z-50 bg-white/70 dark:bg-slate-900/70 backdrop-blur-md shadow-[0px_24px_48px_rgba(0,73,230,0.08)]">
+<div class="flex justify-between items-center px-8 py-4 max-w-7xl mx-auto">
+<a href="../" class="text-xl font-black text-primary tracking-tighter font-headline">
+            Elevate Education Network
+        </a>
+<div class="hidden md:flex items-center space-x-8">
+<a class="text-slate-600 dark:text-slate-400 hover:text-primary transition-opacity duration-300 font-label text-sm font-medium" href="../">Home</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-primary transition-opacity duration-300 font-label text-sm font-medium" href="../about/">About</a>
+<a class="text-primary font-bold border-b-2 border-primary pb-1 font-label text-sm tracking-tight" href="../projects/">Projects</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-primary transition-opacity duration-300 font-label text-sm font-medium" href="../spotlights/">Spotlights</a>
+</div>
+<button onclick="openContactModal()" class="bg-primary text-on-primary px-6 py-2 rounded-full font-label font-bold scale-95 transition-transform duration-200 active:scale-90 shadow-lg shadow-primary/20">
+            Request Demo
+        </button>
+</div>
+</nav>
+<main class="pt-24">
+<!-- Hero Section -->
+<section class="relative px-8 py-20 max-w-7xl mx-auto overflow-hidden">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<div class="lg:col-span-7">
+<h1 class="font-headline font-extrabold text-5xl md:text-7xl tracking-tight text-on-surface mb-6 leading-[1.1]">
+                    Engineering the <span class="text-editorial-gradient">Future of Learning</span>
+</h1>
+<p class="text-lg md:text-xl text-on-surface-variant max-w-2xl leading-relaxed mb-10 font-medium">
+                    We deploy advanced technological infrastructure designed specifically for the Zambian educational landscape. From administrative efficiency to AI-driven grading, our tools empower educators and students.
+                </p>
+</div>
+<div class="lg:col-span-5 relative">
+<div class="absolute -top-12 -right-12 w-64 h-64 bg-primary/20 rounded-full blur-3xl opacity-30"></div>
+<div class="relative rounded-xl overflow-hidden shadow-2xl transform rotate-2 hover:rotate-0 transition-transform duration-500 border border-white/20">
+<img alt="EEN learning environment" class="w-full aspect-[4/3] object-cover" src="../assets/images/learning_img.jpg"/>
+</div>
+</div>
+</div>
+</section>
+<!-- Flagship Projects - School Management System -->
+<section class="bg-surface-container-low py-24">
+<div class="max-w-7xl mx-auto px-8">
+<div class="mb-16">
+<span class="inline-block px-4 py-1 bg-primary text-on-primary rounded-full text-xs font-black uppercase tracking-widest mb-4">Flagship Infrastructure</span>
+<h2 class="font-headline font-bold text-4xl text-on-surface">School Management System (SMS)</h2>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+<div class="space-y-8">
+<div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm border-l-8 border-primary glow-hover transition-all">
+<h3 class="text-xl font-bold mb-4 flex items-center text-on-surface">
+<span class="material-symbols-outlined mr-3 text-primary text-3xl" data-icon="domain">domain</span>
+                            Holistic Institutional Control
+                        </h3>
+<p class="text-on-surface-variant leading-relaxed">
+                            A centralized platform managing student enrollment, attendance tracking, and financial records. Engineered for low-bandwidth environments without compromising on functionality.
+                        </p>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div class="p-6 bg-white rounded-xl shadow-sm border border-slate-100">
+<div class="text-3xl font-black text-primary mb-1">98%</div>
+<div class="text-xs uppercase tracking-widest text-on-surface-variant font-bold">Uptime Guarantee</div>
+</div>
+<div class="p-6 bg-white rounded-xl shadow-sm border border-slate-100">
+<div class="text-3xl font-black text-secondary mb-1">1000+</div>
+<div class="text-xs uppercase tracking-widest text-on-surface-variant font-bold">Active Records</div>
+</div>
+</div>
+</div>
+<div class="relative">
+<img alt="School Management System dashboard showing student analytics and performance data" class="rounded-xl shadow-2xl border-4 border-white" src="../assets/images/school_mgt_sys_img.jpg"/>
+<div class="absolute -bottom-6 -left-6 bg-white p-5 rounded-xl shadow-2xl max-w-xs border border-slate-100">
+<div class="flex items-center space-x-3">
+<div class="w-12 h-12 rounded-xl bg-primary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-primary text-2xl" data-icon="security">security</span>
+</div>
+<div>
+<p class="text-sm font-black text-on-surface">Data Protection</p>
+<p class="text-[10px] font-bold text-on-surface-variant uppercase tracking-widest">Zambia DP Act Compliant</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Flagship Projects - AI OMR System -->
+<section class="py-24 bg-surface">
+<div class="max-w-7xl mx-auto px-8">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+<div class="order-2 lg:order-1">
+<div class="relative group">
+<div class="absolute inset-0 bg-secondary blur-3xl opacity-20 group-hover:opacity-30 transition-opacity"></div>
+<img alt="Student filling an OMR exam answer sheet — automated grading with the AI OMR System" class="relative rounded-xl shadow-xl aspect-video object-cover ring-1 ring-slate-200" src="../assets/images/omr_img.jpg"/>
+</div>
+</div>
+<div class="order-1 lg:order-2">
+<span class="inline-block px-4 py-1 bg-secondary text-on-secondary rounded-full text-xs font-black uppercase tracking-widest mb-4">Innovation Lab</span>
+<h2 class="font-headline font-bold text-4xl text-on-surface mb-6">AI OMR System</h2>
+<p class="text-lg text-on-surface-variant leading-relaxed mb-8 font-medium">
+                        Revolutionizing examination grading. Our proprietary AI-powered Optical Mark Recognition (OMR) system processes handwritten exam sheets using standard smartphones, eliminating the need for expensive hardware.
+                    </p>
+<ul class="space-y-4 mb-8">
+<li class="flex items-center space-x-3">
+<span class="material-symbols-outlined text-secondary font-bold" data-icon="check_circle">check_circle</span>
+<span class="font-bold text-on-surface">Instant Results Processing</span>
+</li>
+<li class="flex items-center space-x-3">
+<span class="material-symbols-outlined text-secondary font-bold" data-icon="check_circle">check_circle</span>
+<span class="font-bold text-on-surface">Works Offline in Rural Areas</span>
+</li>
+<li class="flex items-center space-x-3">
+<span class="material-symbols-outlined text-secondary font-bold" data-icon="check_circle">check_circle</span>
+<span class="font-bold text-on-surface">Automated Error Detection</span>
+</li>
+</ul>
+<button class="flex items-center text-primary font-black hover:translate-x-2 transition-transform uppercase text-sm tracking-widest">
+                        View Case Study 
+                        <span class="material-symbols-outlined ml-2" data-icon="arrow_forward">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- Technical Lead Profiles -->
+<section class="py-24 bg-surface-container-lowest">
+<div class="max-w-7xl mx-auto px-8 text-center mb-16">
+<h2 class="font-headline font-black text-4xl text-on-surface mb-2 uppercase tracking-tight">The Minds Behind the Tech</h2>
+<p class="text-on-surface-variant font-medium text-lg">Leading the digital transformation of Zambian education.</p>
+</div>
+<div class="max-w-7xl mx-auto px-8 grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Profile 1 -->
+<div class="group pt-8 pb-8 px-8 bg-surface rounded-xl hover:bg-primary text-on-surface hover:text-on-primary transition-all duration-300 shadow-sm hover:shadow-2xl hover:shadow-primary/40">
+<div class="mb-6 relative w-28 h-28 mx-auto">
+<div class="w-full h-full rounded-2xl shadow-lg ring-4 ring-white group-hover:ring-primary-container transition-all overflow-hidden bg-surface-container-high flex items-center justify-center">
+<span class="material-symbols-outlined text-primary/30 text-6xl">person</span>
+</div>
+<div class="absolute -bottom-2 -right-2 bg-white p-2 rounded-xl shadow group-hover:bg-primary-container transition-colors">
+<span class="material-symbols-outlined text-primary text-base font-bold" data-icon="terminal">terminal</span>
+</div>
+</div>
+<h3 class="font-black text-xl mb-1 text-center">John Banda</h3>
+<p class="text-primary font-bold text-sm mb-4 uppercase tracking-widest text-center group-hover:text-primary-container">Tech Lead</p>
+<p class="text-sm leading-relaxed text-center opacity-80 group-hover:opacity-100 font-medium">
+                    Electrical Engineer with expertise in Mechatronics, Robotics, and AI-driven data solutions. Leads development of the SMS platform and AI tools.
+                </p>
+</div>
+<!-- Profile 2 -->
+<div class="group pt-8 pb-8 px-8 bg-surface rounded-xl hover:bg-primary text-on-surface hover:text-on-primary transition-all duration-300 shadow-sm hover:shadow-2xl hover:shadow-primary/40">
+<div class="mb-6 relative w-28 h-28 mx-auto">
+<img alt="Itzel Reyes Nava" class="w-full h-28 object-cover rounded-2xl shadow-lg ring-4 ring-white group-hover:ring-primary-container transition-all" src="../assets/images/itzel_reyes_nava_img.jpeg"/>
+<div class="absolute -bottom-2 -right-2 bg-white p-2 rounded-xl shadow group-hover:bg-primary-container transition-colors">
+<span class="material-symbols-outlined text-primary text-base font-bold" data-icon="school">school</span>
+</div>
+</div>
+<h3 class="font-black text-xl mb-1 text-center">Itzel Reyes Nava</h3>
+<p class="text-primary font-bold text-sm mb-4 uppercase tracking-widest text-center group-hover:text-primary-container">Education Specialist</p>
+<p class="text-sm leading-relaxed text-center opacity-80 group-hover:opacity-100 font-medium">
+                    International education specialist contributing global insights into curriculum development and learning outcomes measurement.
+                </p>
+</div>
+<!-- Profile 3 -->
+<div class="group pt-8 pb-8 px-8 bg-surface rounded-xl hover:bg-primary text-on-surface hover:text-on-primary transition-all duration-300 shadow-sm hover:shadow-2xl hover:shadow-primary/40">
+<div class="mb-6 relative w-28 h-28 mx-auto">
+<img alt="Lizzy Nalumbwe" class="w-full h-28 object-cover rounded-2xl shadow-lg ring-4 ring-white group-hover:ring-primary-container transition-all" src="../assets/images/lizzy_nalumbwe_img.jpg"/>
+<div class="absolute -bottom-2 -right-2 bg-white p-2 rounded-xl shadow group-hover:bg-primary-container transition-colors">
+<span class="material-symbols-outlined text-primary text-base font-bold" data-icon="groups">groups</span>
+</div>
+</div>
+<h3 class="font-black text-xl mb-1 text-center">Lizzy Nalumbwe</h3>
+<p class="text-primary font-bold text-sm mb-4 uppercase tracking-widest text-center group-hover:text-primary-container">Operations &amp; Outreach Lead</p>
+<p class="text-sm leading-relaxed text-center opacity-80 group-hover:opacity-100 font-medium">
+                    Leads on-ground operations and school adoption programmes, building lasting relationships with educators and school administrators across Zambia.
+                </p>
+</div>
+</div>
+</section>
+<!-- Upcoming Projects - Bento Grid -->
+<section class="py-24 bg-surface-container-low">
+<div class="max-w-7xl mx-auto px-8">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+<div class="max-w-2xl">
+<h2 class="font-headline font-black text-4xl text-on-surface mb-4">Upcoming Pipeline</h2>
+<p class="text-on-surface-variant text-lg font-medium">We are continuously expanding our ecosystem to support every facet of education management.</p>
+</div>
+<div class="mt-6 md:mt-0">
+<div class="px-6 py-2 bg-primary/10 rounded-full border border-primary/20 text-primary text-xs font-black uppercase tracking-widest">
+                        2024-2025 Roadmap
+                    </div>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Project 1 -->
+<div class="md:col-span-2 bg-surface-container-lowest p-10 rounded-xl flex flex-col justify-between relative overflow-hidden group shadow-sm hover:shadow-xl transition-all border border-slate-100">
+<div class="absolute top-0 right-0 p-6">
+<span class="bg-secondary text-on-secondary px-4 py-1.5 rounded-full text-[10px] font-black uppercase tracking-widest shadow-lg shadow-secondary/20">Coming Soon</span>
+</div>
+<div>
+<div class="w-16 h-16 bg-primary-container rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-4xl text-primary" data-icon="analytics">analytics</span>
+</div>
+<h3 class="text-2xl font-black mb-4 text-on-surface">Education Analytics Dashboard</h3>
+<p class="text-on-surface-variant max-w-lg mb-8 leading-relaxed font-medium">
+                            Real-time reporting for district and national level administrators to track literacy rates, school performance, and resource allocation efficiency.
+                        </p>
+</div>
+<div class="flex space-x-2">
+<div class="h-2 w-16 bg-primary rounded-full"></div>
+<div class="h-2 w-4 bg-primary/20 rounded-full"></div>
+<div class="h-2 w-4 bg-primary/20 rounded-full"></div>
+</div>
+</div>
+<!-- Project 2 -->
+<div class="bg-primary p-8 rounded-xl flex flex-col justify-between relative overflow-hidden group shadow-lg shadow-primary/20">
+<div class="absolute top-0 right-0 p-6">
+<span class="bg-white/20 text-white px-3 py-1 rounded-full text-[10px] font-black uppercase tracking-widest border border-white/30">Q4 2024</span>
+</div>
+<div class="w-14 h-14 bg-white/10 rounded-xl flex items-center justify-center mb-12 group-hover:rotate-12 transition-transform">
+<span class="material-symbols-outlined text-4xl text-white" data-icon="trending_up">trending_up</span>
+</div>
+<div>
+<h3 class="text-xl font-black mb-2 text-white">Teacher Performance Platform</h3>
+<p class="text-sm text-white/80 leading-relaxed font-medium">
+                            Continuous professional development tracking and classroom observation metrics for teachers.
+                        </p>
+</div>
+</div>
+<!-- Project 3 -->
+<div class="md:col-span-3 bg-inverse-surface text-inverse-on-surface p-12 rounded-xl flex flex-col md:flex-row items-center gap-12 overflow-hidden border border-white/5 relative">
+<div class="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_top_right,rgba(0,82,255,0.1),transparent)] pointer-events-none"></div>
+<div class="flex-1 relative z-10">
+<span class="inline-block px-3 py-1 bg-secondary/20 text-secondary rounded-full text-[10px] font-black uppercase tracking-widest mb-6 border border-secondary/30">Internal Systems</span>
+<h3 class="text-3xl font-black mb-4 font-headline uppercase tracking-tight">Payroll &amp; HR System</h3>
+<p class="text-slate-400 mb-8 max-w-xl leading-relaxed font-medium">
+                            Specialized financial management for educational staff, handling complex allowances, local tax regulations, and automatic pension contributions.
+                        </p>
+<div class="flex gap-4">
+<span class="flex items-center text-[10px] font-black uppercase tracking-widest px-4 py-2 bg-secondary/20 rounded-lg border border-secondary/30 text-secondary">
+<span class="material-symbols-outlined mr-2 text-sm text-secondary" data-icon="check_circle">check_circle</span>
+                                Live
+                            </span>
+</div>
+</div>
+<div class="flex-1 hidden md:block relative z-10">
+<img alt="Payroll HR System" class="w-full h-72 object-cover rounded-xl transition-all duration-700 ring-1 ring-white/10" src="../assets/images/payroll_background.jpg"/>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-slate-100 dark:bg-slate-950 w-full pt-16 pb-8 border-t border-slate-200">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 px-8 max-w-7xl mx-auto">
+<div class="col-span-1 md:col-span-1">
+<div class="text-lg font-black text-slate-800 dark:text-slate-200 font-headline mb-4 tracking-tighter">Elevate Education Network</div>
+<p class="text-slate-500 dark:text-slate-400 text-sm leading-relaxed mb-6 font-medium">
+                Pioneering digital educational infrastructure across Zambia.
+            </p>
+</div>
+<div>
+<h4 class="font-black text-xs uppercase tracking-[0.2em] text-on-surface mb-6">Quick Links</h4>
+<ul class="space-y-3">
+<li><a class="text-slate-500 dark:text-slate-400 text-xs font-bold uppercase tracking-widest hover:text-secondary transition-colors" href="../">Home</a></li>
+<li><a class="text-slate-500 dark:text-slate-400 text-xs font-bold uppercase tracking-widest hover:text-secondary transition-colors" href="../about/">About</a></li>
+<li><a class="text-secondary font-black text-xs uppercase tracking-widest" href="../projects/">Projects</a></li>
+<li><a class="text-slate-500 dark:text-slate-400 text-xs font-bold uppercase tracking-widest hover:text-secondary transition-colors" href="../spotlights/">Spotlights</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-black text-xs uppercase tracking-[0.2em] text-on-surface mb-6">Legal</h4>
+<ul class="space-y-3">
+<li><a class="text-slate-500 dark:text-slate-400 text-xs font-bold uppercase tracking-widest hover:text-secondary transition-colors" href="#">Privacy Policy</a></li>
+<li><a class="text-slate-500 dark:text-slate-400 text-xs font-bold uppercase tracking-widest hover:text-secondary transition-colors" href="#">Terms of Service</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-black text-xs uppercase tracking-[0.2em] text-on-surface mb-6">Location</h4>
+<p class="text-slate-500 dark:text-slate-400 text-sm mb-6 font-medium leading-relaxed">
+                34914/1080 Kamwala South, Lusaka
+            </p>
+<div class="flex space-x-6">
+<a class="text-slate-400 hover:opacity-100 transition-opacity cursor-pointer" href="https://www.facebook.com/profile.php?id=61573095185439" target="_blank" rel="noopener noreferrer">
+<img alt="Facebook" class="w-5 h-5 opacity-50 hover:opacity-100 transition-opacity" src="../assets/images/facebook-logo.png"/>
+</a>
+</div>
+</div>
+</div>
+<div class="max-w-7xl mx-auto px-8 mt-16 pt-8 border-t border-slate-200 dark:border-slate-800 text-center">
+<p class="text-slate-500 dark:text-slate-400 text-[10px] font-black uppercase tracking-[0.15em] opacity-80">
+            © 2026 Elevate Education Network Limited Zambia. PACRA Reg. No. 120251020194. Data Protection Compliant.
+        </p>
+</div>
+</footer>
+
+<!-- Contact Modal -->
+<div id="contactModal" class="fixed inset-0 z-[999] flex items-center justify-center p-4" style="display:none!important" aria-modal="true" role="dialog">
+  <div class="absolute inset-0 bg-black/60 backdrop-blur-sm" onclick="closeContactModal()"></div>
+  <div class="relative bg-white rounded-3xl shadow-2xl max-w-md w-full p-10 z-10">
+    <button onclick="closeContactModal()" class="absolute top-5 right-5 text-slate-400 hover:text-slate-700 transition-colors" aria-label="Close">
+      <span class="material-symbols-outlined text-3xl">close</span>
+    </button>
+    <div class="text-center mb-8">
+      <div class="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center mx-auto mb-4">
+        <span class="material-symbols-outlined text-primary text-3xl">forum</span>
+      </div>
+      <h2 class="font-headline font-black text-2xl text-on-surface mb-2">Get in Touch</h2>
+      <p class="text-on-surface-variant text-sm leading-relaxed">Reach out via WhatsApp or email and our team will get back to you shortly.</p>
+    </div>
+    <div class="space-y-4">
+      <a href="https://wa.me/260779141202" target="_blank" rel="noopener noreferrer"
+         class="flex items-center gap-4 w-full bg-[#25D366] text-white px-6 py-4 rounded-2xl font-bold hover:bg-[#1ebe5d] transition-colors shadow-md">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 flex-shrink-0"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        <span>WhatsApp: +260 779 141 202</span>
+      </a>
+      <a href="https://wa.me/260973871145" target="_blank" rel="noopener noreferrer"
+         class="flex items-center gap-4 w-full bg-[#25D366] text-white px-6 py-4 rounded-2xl font-bold hover:bg-[#1ebe5d] transition-colors shadow-md">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 flex-shrink-0"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        <span>WhatsApp: +260 973 871 145</span>
+      </a>
+      <a href="mailto:info@eenzambia.org"
+         class="flex items-center gap-4 w-full bg-primary text-white px-6 py-4 rounded-2xl font-bold hover:bg-primary/90 transition-colors shadow-md">
+        <span class="material-symbols-outlined text-xl flex-shrink-0">mail</span>
+        <span>info@eenzambia.org</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<script>
+  function openContactModal() {
+    var m = document.getElementById('contactModal');
+    m.style.removeProperty('display');
+    m.style.display = 'flex';
+    document.body.style.overflow = 'hidden';
+  }
+  function closeContactModal() {
+    document.getElementById('contactModal').style.display = 'none';
+    document.body.style.overflow = '';
+  }
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') closeContactModal();
+  });
+</script>
+</body></html>

@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>About | Elevate Education Network</title>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&amp;family=Plus+Jakarta+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "surface-bright": "#f7f9fb",
+                    "on-secondary-fixed-variant": "#005236",
+                    "surface-container-lowest": "#ffffff",
+                    "outline-variant": "#c3c5d7",
+                    "on-secondary": "#ffffff",
+                    "on-primary-fixed-variant": "#003dab",
+                    "on-error": "#ffffff",
+                    "error-container": "#ffdad6",
+                    "surface": "#f7f9fb",
+                    "primary-container": "#0052FF",
+                    "on-secondary-container": "#00C853",
+                    "outline": "#737686",
+                    "on-surface-variant": "#434654",
+                    "tertiary-fixed-dim": "#bec6e0",
+                    "primary": "#0052FF",
+                    "surface-tint": "#0052FF",
+                    "inverse-primary": "#b5c4ff",
+                    "primary-fixed": "#dbe1ff",
+                    "secondary-fixed": "#b2ff59",
+                    "primary-fixed-dim": "#b5c4ff",
+                    "error": "#ba1a1a",
+                    "background": "#f7f9fb",
+                    "inverse-on-surface": "#eff1f3",
+                    "on-tertiary": "#ffffff",
+                    "inverse-surface": "#2d3133",
+                    "on-primary-container": "#ffffff",
+                    "on-surface": "#191c1e",
+                    "on-primary-fixed": "#00174d",
+                    "on-tertiary-fixed-variant": "#3f465c",
+                    "on-background": "#191c1e",
+                    "secondary": "#00C853",
+                    "on-secondary-fixed": "#002113",
+                    "tertiary-fixed": "#dae2fd",
+                    "on-tertiary-container": "#d5ddf7",
+                    "surface-container-high": "#e6e8ea",
+                    "on-error-container": "#93000a",
+                    "secondary-fixed-dim": "#4edea3",
+                    "surface-dim": "#d8dadc",
+                    "surface-container": "#eceef0",
+                    "surface-container-low": "#f2f4f6",
+                    "on-tertiary-fixed": "#131b2e",
+                    "tertiary": "#41495f",
+                    "secondary-container": "#E8F5E9",
+                    "surface-container-highest": "#e0e3e5",
+                    "on-primary": "#ffffff",
+                    "tertiary-container": "#596177",
+                    "surface-variant": "#e0e3e5"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Manrope"],
+                    "body": ["Plus Jakarta Sans"],
+                    "label": ["Plus Jakarta Sans"],
+                    "manrope": ["Manrope"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body { font-family: 'Manrope', sans-serif; }
+        h1, h2, h3 { font-family: 'Manrope', sans-serif; }
+    </style>
+</head>
+<body class="bg-surface text-on-surface antialiased">
+<!-- Top Navigation Bar -->
+<header class="bg-white/70 dark:bg-slate-900/70 backdrop-blur-md sticky top-0 w-full z-50 shadow-[0px_24px_48px_rgba(0,73,230,0.08)]">
+<nav class="flex justify-between items-center px-8 py-4 max-w-7xl mx-auto">
+<a href="../" class="text-xl font-black text-primary dark:text-blue-400 tracking-tighter">Elevate Education Network</a>
+<div class="hidden md:flex items-center space-x-8 font-manrope text-sm font-medium tracking-tight">
+<a class="text-slate-600 dark:text-slate-400 hover:text-primary transition-opacity duration-300" href="../">Home</a>
+<a class="text-primary dark:text-blue-400 border-b-2 border-primary pb-1" href="../about/">About</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-primary transition-opacity duration-300" href="../projects/">Projects</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-primary transition-opacity duration-300" href="../spotlights/">Spotlights</a>
+</div>
+<button onclick="openContactModal()" class="bg-primary text-on-primary px-6 py-2.5 rounded-full font-bold scale-95 transition-transform duration-200 active:scale-90 hover:opacity-90">
+            Request Demo
+        </button>
+</nav>
+</header>
+<main>
+<!-- Hero Section -->
+<section class="relative overflow-hidden bg-primary px-8 py-24 md:py-32">
+<div class="max-w-7xl mx-auto relative z-10">
+<div class="max-w-3xl">
+<span class="inline-block px-4 py-1.5 rounded-full bg-secondary text-white font-bold text-sm mb-6">
+                    Pioneering Zambian EdTech
+                </span>
+<h1 class="text-5xl md:text-7xl font-extrabold text-white tracking-tight mb-8">
+                    The Digital Beacon of Zambia's Future.
+                </h1>
+<p class="text-xl text-white leading-relaxed opacity-90 font-body">
+                    Elevate Education Network is harnessing the power of data and Artificial Intelligence to illuminate the path for every student and educator across Zambia.
+                </p>
+</div>
+</div>
+<!-- Decorative Element -->
+<div class="absolute top-0 right-0 w-1/2 h-full opacity-10 pointer-events-none">
+<div class="w-full h-full bg-[radial-gradient(circle_at_center,_#ffffff_0%,_transparent_70%)]"></div>
+</div>
+</section>
+<!-- Our Story Section -->
+<section class="py-24 px-8 bg-surface">
+<div class="max-w-7xl mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-16 items-center">
+<div class="md:col-span-7 relative">
+<div class="rounded-xl overflow-hidden shadow-2xl">
+<img alt="EEN team with school staff at a partner school in Lusaka" class="w-full h-[500px] object-cover" src="../assets/images/our_story_img.jpeg"/>
+</div>
+<div class="absolute -bottom-10 -right-10 hidden lg:block w-64 h-64 rounded-xl overflow-hidden shadow-xl border-8 border-surface">
+<img alt="Elevate Education Network logo" class="w-full h-full object-cover" src="../assets/images/een_logo.jpg"/>
+</div>
+</div>
+<div class="md:col-span-5">
+<h2 class="text-4xl font-bold text-on-surface mb-6 leading-tight">Our Story</h2>
+<div class="space-y-6 text-on-surface-variant text-lg leading-relaxed font-body">
+<p>Founded with a vision to bridge the educational gap in Zambia, Elevate Education Network started as a small initiative focused on teacher support. We quickly realized that the challenges were systemic and required a technological leap.</p>
+<p>By integrating advanced data analytics and localized AI models, we are transforming from a local support group into a nationwide network that provides real-time insights into student performance and teacher impact.</p>
+<div class="pt-4">
+<div class="flex items-center gap-4 py-3">
+<span class="material-symbols-outlined text-secondary text-3xl">verified</span>
+<span class="font-semibold text-on-surface">PACRA Registered &amp; Compliant &mdash; Reg. No. 120251020194</span>
+</div>
+<div class="flex items-center gap-4 py-3">
+<span class="material-symbols-outlined text-secondary text-3xl">analytics</span>
+<span class="font-semibold text-on-surface">Data-Driven Impact Tracking</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Mission & Vision -->
+<section class="py-24 bg-surface-container-low">
+<div class="max-w-7xl mx-auto px-8">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+<div class="bg-surface-container-lowest p-12 rounded-xl border border-slate-100 shadow-sm">
+<div class="w-16 h-16 rounded-full bg-primary-fixed flex items-center justify-center mb-8">
+<span class="material-symbols-outlined text-primary text-3xl">lightbulb</span>
+</div>
+<h3 class="text-3xl font-bold text-on-surface mb-4">Our Mission</h3>
+<p class="text-lg text-on-surface-variant leading-relaxed">
+                        To empower Zambian educational institutions with sophisticated data tools and AI-driven insights, ensuring every learner receives high-quality, personalized instruction regardless of their geographic location.
+                    </p>
+</div>
+<div class="bg-surface-container-lowest p-12 rounded-xl border border-slate-100 shadow-sm">
+<div class="w-16 h-16 rounded-full bg-secondary-container flex items-center justify-center mb-8">
+<span class="material-symbols-outlined text-secondary text-3xl">visibility</span>
+</div>
+<h3 class="text-3xl font-bold text-on-surface mb-4">Our Vision</h3>
+<p class="text-lg text-on-surface-variant leading-relaxed">
+                        To be the premier digital infrastructure for education in Sub-Saharan Africa, where technology serves as a bridge to universal literacy, economic opportunity, and national prosperity.
+                    </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Core Values -->
+<section class="py-24 px-8 bg-surface">
+<div class="max-w-7xl mx-auto">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-extrabold text-on-surface mb-4 tracking-tight">Our Core Values</h2>
+<p class="text-on-surface-variant max-w-2xl mx-auto text-lg">The principles that guide our innovation and community engagement.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="md:col-span-2 bg-surface-container-lowest p-10 rounded-xl relative overflow-hidden flex flex-col justify-between border border-slate-100 hover:border-primary transition-colors duration-300">
+<div>
+<span class="material-symbols-outlined text-primary text-4xl mb-6">database</span>
+<h3 class="text-2xl font-bold text-on-surface mb-4">Data-driven Decisions</h3>
+<p class="text-on-surface-variant text-lg max-w-lg">We believe that metrics matter. By collecting and analyzing real-time classroom data, we remove the guesswork from educational policy and individual learning paths.</p>
+</div>
+<div class="mt-8 flex gap-2">
+<span class="px-3 py-1 bg-surface-container-high rounded-full text-xs font-bold uppercase tracking-wider">Precision</span>
+<span class="px-3 py-1 bg-surface-container-high rounded-full text-xs font-bold uppercase tracking-wider">Accountability</span>
+</div>
+</div>
+<div class="bg-secondary text-white p-10 rounded-xl flex flex-col justify-between transition-transform duration-300">
+<span class="material-symbols-outlined text-white text-4xl mb-6">workspace_premium</span>
+<div>
+<h3 class="text-2xl font-bold mb-4">Teacher Recognition</h3>
+<p class="text-white opacity-90">Our AI identifies and celebrates exceptional teaching practices, ensuring that the best educators are recognized and their methods shared.</p>
+</div>
+</div>
+<div class="bg-surface-container-highest p-10 rounded-xl flex flex-col justify-center items-center text-center border border-slate-200">
+<span class="material-symbols-outlined text-on-surface-variant text-5xl mb-6">groups</span>
+<h3 class="text-2xl font-bold text-on-surface mb-2">Inclusive Learning</h3>
+<p class="text-on-surface-variant">No student left offline. Our solutions are designed to work in both urban centers and rural outposts.</p>
+</div>
+<div class="md:col-span-2 bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm flex flex-col md:flex-row border border-slate-100">
+<div class="md:w-1/2">
+<img alt="Teacher at Kondwani Kindergarten during a training session" class="w-full h-full object-cover" src="../assets/images/tr_prisca_tr_spotlight.jpeg"/>
+</div>
+<div class="md:w-1/2 p-10 flex flex-col justify-center">
+<h3 class="text-2xl font-bold text-on-surface mb-4">Empowering Educators</h3>
+<p class="text-on-surface-variant">We provide teachers with AI assistants that handle administrative tasks, allowing them to focus on what they do best: inspiring students.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Strategic Partners -->
+<section class="py-24 bg-surface-container-low">
+<div class="max-w-7xl mx-auto px-8">
+<div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
+<div>
+<h2 class="text-4xl font-extrabold text-on-surface tracking-tight mb-2">Strategic Partners</h2>
+<p class="text-on-surface-variant text-lg">Collaborating with global leaders to solve local challenges.</p>
+</div>
+<button class="text-primary font-bold flex items-center gap-2 hover:gap-4 transition-all">
+                    Become a Partner <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+<div class="bg-white p-8 rounded-xl flex items-center justify-center grayscale hover:grayscale-0 transition-all border border-slate-100">
+<div class="text-center">
+<div class="text-xl font-black text-slate-700 leading-tight">Kondwani</div>
+<div class="text-xs font-bold text-slate-400 uppercase tracking-widest mt-1">Kindergarten</div>
+</div>
+</div>
+<div class="bg-white p-8 rounded-xl flex items-center justify-center grayscale hover:grayscale-0 transition-all border border-slate-100">
+<div class="text-center">
+<div class="text-xl font-black text-slate-700 leading-tight">Sky Towers</div>
+<div class="text-xs font-bold text-slate-400 uppercase tracking-widest mt-1">Zambia</div>
+</div>
+</div>
+<div class="bg-white p-8 rounded-xl flex items-center justify-center grayscale hover:grayscale-0 transition-all border border-slate-100">
+<div class="text-center">
+<div class="text-xl font-black text-slate-700 leading-tight">Cohesive</div>
+<div class="text-xs font-bold text-slate-400 uppercase tracking-widest mt-1">Adventure</div>
+</div>
+</div>
+<div class="bg-white p-8 rounded-xl flex items-center justify-center grayscale hover:grayscale-0 transition-all border border-slate-100">
+<div class="text-center">
+<div class="text-xl font-black text-slate-700 leading-tight">Altiora</div>
+<div class="text-xs font-bold text-slate-400 uppercase tracking-widest mt-1">Digital Solutions</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="py-20 px-8">
+<div class="max-w-5xl mx-auto bg-primary rounded-3xl p-12 text-center text-white relative overflow-hidden">
+<div class="relative z-10">
+<h2 class="text-4xl font-bold mb-6">Join the Digital Revolution</h2>
+<p class="text-white opacity-80 text-xl mb-10 max-w-2xl mx-auto">Help us reshape the future of education in Zambia through the power of data and AI.</p>
+<div class="flex flex-col sm:flex-row gap-4 justify-center">
+<button onclick="openContactModal()" class="bg-white text-primary px-8 py-4 rounded-full font-bold text-lg hover:shadow-lg transition-all scale-95 active:scale-90">Get Started Today</button>
+<button onclick="openContactModal()" class="border-2 border-white/30 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white/10 transition-all">Learn More</button>
+</div>
+</div>
+<!-- Abstract Texture -->
+<div class="absolute inset-0 opacity-10">
+<div class="absolute -top-24 -left-24 w-96 h-96 bg-white rounded-full blur-3xl"></div>
+<div class="absolute -bottom-24 -right-24 w-96 h-96 bg-secondary-container rounded-full blur-3xl"></div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-slate-100 dark:bg-slate-950 w-full py-12 px-8">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 max-w-7xl mx-auto font-manrope text-xs uppercase tracking-widest leading-relaxed">
+<div class="md:col-span-1">
+<div class="text-lg font-bold text-slate-800 dark:text-slate-200 mb-6 normal-case tracking-normal">Elevate Education Network</div>
+<p class="text-slate-500 dark:text-slate-400 normal-case tracking-normal">Transforming learning outcomes across Zambia through data-driven insights and artificial intelligence.</p>
+</div>
+<div class="space-y-4">
+<h4 class="font-bold text-on-surface mb-2">Company</h4>
+<nav class="flex flex-col gap-3">
+<a class="text-slate-500 dark:text-slate-400 hover:text-secondary transition-colors" href="../">Home</a>
+<a class="text-secondary dark:text-green-400 font-bold" href="../about/">About</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-secondary transition-colors" href="../projects/">Projects</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-secondary transition-colors" href="../spotlights/">Spotlights</a>
+</nav>
+</div>
+<div class="space-y-4">
+<h4 class="font-bold text-on-surface mb-2">Legal</h4>
+<nav class="flex flex-col gap-3">
+<a class="text-slate-500 dark:text-slate-400 hover:text-secondary transition-colors" href="#">Privacy Policy</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-secondary transition-colors" href="#">Terms of Service</a>
+</nav>
+</div>
+<div class="space-y-4">
+<h4 class="font-bold text-on-surface mb-2">Address</h4>
+<p class="text-slate-500 dark:text-slate-400 normal-case tracking-normal">34914/1080 Kamwala South, Lusaka</p>
+<div class="flex gap-4 pt-2">
+<a class="text-slate-400 hover:opacity-100 transition-opacity" href="https://www.facebook.com/profile.php?id=61573095185439" target="_blank" rel="noopener noreferrer">
+<img alt="Facebook" class="w-5 h-5 opacity-50 hover:opacity-100 transition-opacity" src="../assets/images/facebook-logo.png"/>
+</a>
+</div>
+</div>
+</div>
+<div class="max-w-7xl mx-auto px-8 mt-16 pt-8 border-t border-slate-200 dark:border-slate-800 text-center md:text-left">
+<p class="text-slate-500 dark:text-slate-400 font-manrope text-xs uppercase tracking-widest">© 2026 Elevate Education Network Limited Zambia. PACRA Reg. No. 120251020194.</p>
+</div>
+</footer>
+
+<!-- Contact Modal -->
+<div id="contactModal" class="fixed inset-0 z-[999] flex items-center justify-center p-4" style="display:none!important" aria-modal="true" role="dialog">
+  <div class="absolute inset-0 bg-black/60 backdrop-blur-sm" onclick="closeContactModal()"></div>
+  <div class="relative bg-white rounded-3xl shadow-2xl max-w-md w-full p-10 z-10">
+    <button onclick="closeContactModal()" class="absolute top-5 right-5 text-slate-400 hover:text-slate-700 transition-colors" aria-label="Close">
+      <span class="material-symbols-outlined text-3xl">close</span>
+    </button>
+    <div class="text-center mb-8">
+      <div class="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center mx-auto mb-4">
+        <span class="material-symbols-outlined text-primary text-3xl">forum</span>
+      </div>
+      <h2 class="font-headline font-black text-2xl text-on-surface mb-2">Get in Touch</h2>
+      <p class="text-on-surface-variant text-sm leading-relaxed">Reach out via WhatsApp or email and our team will get back to you shortly.</p>
+    </div>
+    <div class="space-y-4">
+      <a href="https://wa.me/260779141202" target="_blank" rel="noopener noreferrer"
+         class="flex items-center gap-4 w-full bg-[#25D366] text-white px-6 py-4 rounded-2xl font-bold hover:bg-[#1ebe5d] transition-colors shadow-md">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 flex-shrink-0"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        <span>WhatsApp: +260 779 141 202</span>
+      </a>
+      <a href="https://wa.me/260973871145" target="_blank" rel="noopener noreferrer"
+         class="flex items-center gap-4 w-full bg-[#25D366] text-white px-6 py-4 rounded-2xl font-bold hover:bg-[#1ebe5d] transition-colors shadow-md">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 flex-shrink-0"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        <span>WhatsApp: +260 973 871 145</span>
+      </a>
+      <a href="mailto:info@eenzambia.org"
+         class="flex items-center gap-4 w-full bg-primary text-white px-6 py-4 rounded-2xl font-bold hover:bg-primary/90 transition-colors shadow-md">
+        <span class="material-symbols-outlined text-xl flex-shrink-0">mail</span>
+        <span>info@eenzambia.org</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<script>
+  function openContactModal() {
+    var m = document.getElementById('contactModal');
+    m.style.removeProperty('display');
+    m.style.display = 'flex';
+    document.body.style.overflow = 'hidden';
+  }
+  function closeContactModal() {
+    document.getElementById('contactModal').style.display = 'none';
+    document.body.style.overflow = '';
+  }
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') closeContactModal();
+  });
+</script>
+</body></html>
